@@ -1,0 +1,49 @@
+﻿<Window x:Class="Weather.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weather"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Margin="0,53,0,205" Width="792">
+
+            <StackPanel Height="160" Width="180" VerticalAlignment="Top" Background="LightGoldenrodYellow">
+                <Label Content="Day 1" Width="100" Height="36" FontFamily="Century Gothic" FontSize="14"/>
+            </StackPanel>
+
+
+
+            <StackPanel Height="160" Width="180" VerticalAlignment="Top" Background="LightGoldenrodYellow">
+                <Label Content="Day 2" Width="100" Height="36" FontFamily="Century Gothic" FontSize="14"/>
+            </StackPanel>
+
+            <StackPanel Height="160" Width="180" VerticalAlignment="Top" Background="LightGoldenrodYellow">
+                <Label Content="Day 3" Width="100" Height="36" FontFamily="Century Gothic" FontSize="14"/>
+            </StackPanel>
+
+            <StackPanel Height="160" Width="180" VerticalAlignment="Top" Background="LightGoldenrodYellow">
+                <Label Content="Day 4" Width="100" Height="36" FontFamily="Century Gothic" FontSize="14"/>
+            </StackPanel>
+
+        </DockPanel>
+
+        <DockPanel Margin="0,214,0,0">
+            <StackPanel Height="205" Width="180" VerticalAlignment="Top" HorizontalAlignment="Left" Background="LightGoldenrodYellow">
+                <Label Content="Day 5" Width="100" Height="36" FontFamily="Century Gothic" FontSize="14"/>
+            </StackPanel>
+            <StackPanel Height="205" Width="180" VerticalAlignment="Top" HorizontalAlignment="Left" Background="LightGoldenrodYellow">
+                <Label Content="Day 6" Width="100" Height="36" FontFamily="Century Gothic" FontSize="14"/>
+            </StackPanel>
+            <StackPanel Height="205" Width="180" VerticalAlignment="Top" HorizontalAlignment="Left" Background="LightGoldenrodYellow">
+                <Label Content="Day 7" Width="100" Height="36" FontFamily="Century Gothic" FontSize="14"/>
+            </StackPanel>
+
+        </DockPanel>
+
+        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="672,0,0,0" Height="48"/>
+
+
+    </Grid>
+</Window>
